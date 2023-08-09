@@ -76,6 +76,7 @@ function playGame(){
     }else{
         console.log("You lose!")
     }
+    playGame();
 }
 
 let computerChoice;
